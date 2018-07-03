@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create A Profile Creation Without Transaction","Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint","SUCCESS","2018-07-02T20:09:47.808+05:30[Asia/Kolkata]","0.0","23.65"

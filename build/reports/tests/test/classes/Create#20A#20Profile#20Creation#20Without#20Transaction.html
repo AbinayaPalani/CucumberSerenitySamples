@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Create A Profile Creation Without Transaction</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Create A Profile Creation Without Transaction</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Create A Profile Creation Without Transaction</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">23.281s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint</td>
+<td>23.281s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>1
+false
+!------------------------------*****-------------------------------!
+User Object for creation : 
+{&quot;firstName&quot;:&quot;Testing&quot;,&quot;lastName&quot;:&quot;Jbilling&quot;,&quot;userEmail&quot;:&quot;z5b2zq_test@mail.com&quot;,&quot;brandId&quot;:&quot;fd335ead-dac3-4ce1-8908-badaae9c0aa0&quot;,&quot;uniquePin&quot;:&quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,&quot;serviceAgreement&quot;:&quot;90 Days&quot;,&quot;linkToCRM&quot;:&quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,&quot;accountNumber&quot;:&quot;0230198915&quot;,&quot;setUpFee&quot;:0,&quot;address&quot;:&quot;Addr1&quot;,&quot;address2&quot;:&quot;Addr2&quot;,&quot;city&quot;:&quot;OR&quot;,&quot;state&quot;:&quot;Portland&quot;,&quot;country&quot;:&quot;US&quot;,&quot;zip&quot;:&quot;98343&quot;,&quot;organizationName&quot;:&quot;TESTz5b2zq&quot;,&quot;phoneNumber&quot;:&quot;0123456789&quot;,&quot;paymentType&quot;:&quot;cc&quot;,&quot;nameOnCard&quot;:&quot;Abinaya&quot;,&quot;cardNumber&quot;:&quot;4111111111111111&quot;,&quot;expDate&quot;:&quot;09/2020&quot;,&quot;cardType&quot;:&quot;Visa&quot;,&quot;transactionID&quot;:&quot;gvhvh3456&quot;,&quot;agentPin&quot;:&quot;8943&quot;,&quot;agentName&quot;:&quot;Test_Ab&quot;,&quot;billingContact1&quot;:{&quot;First Name&quot;:&quot;Abi&quot;,&quot;Last Name&quot;:&quot;naya&quot;,&quot;Phone Number&quot;:&quot;87673467376&quot;,&quot;Email&quot;:&quot;testing@billing.com&quot;}}
+    ?[32mGiven ?[0m?[32mget the proper data to create a user?[0m                                                                   ?[90m# CreateProfileStepDefinition.get_the_proper_data_to_create_a_user()?[0m
+!-------------------------------------------------------------------!
+Brand Id : {&quot;lastName&quot;:&quot;Jbilling&quot;,&quot;country&quot;:&quot;US&quot;,&quot;agentPin&quot;:&quot;8943&quot;,&quot;city&quot;:&quot;OR&quot;,&quot;expDate&quot;:&quot;09/2020&quot;,&quot;transactionID&quot;:&quot;gvhvh3456&quot;,&quot;paymentType&quot;:&quot;cc&quot;,&quot;nameOnCard&quot;:&quot;Abinaya&quot;,&quot;linkToCRM&quot;:&quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,&quot;userEmail&quot;:&quot;z5b2zq_test@mail.com&quot;,&quot;state&quot;:&quot;Portland&quot;,&quot;zip&quot;:&quot;98343&quot;,&quot;address&quot;:&quot;Addr1&quot;,&quot;organizationName&quot;:&quot;TESTz5b2zq&quot;,&quot;address2&quot;:&quot;Addr2&quot;,&quot;cardType&quot;:&quot;Visa&quot;,&quot;agentName&quot;:&quot;Test_Ab&quot;,&quot;accountNumber&quot;:&quot;0230198915&quot;,&quot;uniquePin&quot;:&quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,&quot;firstName&quot;:&quot;Testing&quot;,&quot;phoneNumber&quot;:&quot;0123456789&quot;,&quot;serviceAgreement&quot;:&quot;90 Days&quot;,&quot;brandId&quot;:&quot;fd335ead-dac3-4ce1-8908-badaae9c0aa0&quot;,&quot;billingContact1&quot;:{&quot;Email&quot;:&quot;testing@billing.com&quot;,&quot;First Name&quot;:&quot;Abi&quot;,&quot;Last Name&quot;:&quot;naya&quot;,&quot;Phone Number&quot;:&quot;87673467376&quot;},&quot;setUpFee&quot;:0,&quot;cardNumber&quot;:&quot;4111111111111111&quot;}
+    ?[32mWhen ?[0m?[32mcall the create user service to create a user with cc?[0m                                                   ?[90m# CreateProfileStepDefinition.call_the_create_user_service_to_create_a_user_with_cc()?[0m
+    ?[32mThen ?[0m?[32mverify the response and status code?[0m                                                                     ?[90m# CreateProfileStepDefinition.verify_the_response_and_status_code()?[0m
+1087385
+fd335ead-dac3-4ce1-8908-badaae9c0aa0
+28
+From get service the AccountPin : d031f47e-4195-4b69-a4d0-a51ab537c1d9
+Test purpose - Brand Id : fd335ead-dac3-4ce1-8908-badaae9c0aa0
+Test purpose - Account Pin : d031f47e-4195-4b69-a4d0-a51ab537c1d9
+    ?[32mWhen ?[0m?[32mcheck the user information with relevant get services?[0m                                                   ?[90m# CreateProfileStepDefinition.check_the_user_information_with_relevant_get_services()?[0m
+    ?[32mAnd ?[0m?[32mverify the response of get services?[0m                                                                      ?[90m# CreateProfileStepDefinition.verify_the_response_of_get_services()?[0m
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint
+----------------------------------------------------------------------------
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.5</a> at 2 Jul, 2018 8:10:23 PM</p>
+</div>
+</div>
+</body>
+</html>

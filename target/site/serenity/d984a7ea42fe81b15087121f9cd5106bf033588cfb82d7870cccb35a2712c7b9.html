@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > <a href="1e8f9eed51f6c55dd777c9402196068c730fe81b0e3ae2a38b892c329aace0ea.html">Create A Profile</a>
+            > <a href="6481a1b14990a7c36794ef3b6f897c30566b4d45d18a9526fe362255f3b91d91.html">Create A Profile Creation Without Transaction</a>
+        > Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-07-2018 20:09</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create A Profile Creation Without Transaction </span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to create a user without any transaction with relavent brand
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="1e8f9eed51f6c55dd777c9402196068c730fe81b0e3ae2a38b892c329aace0ea.html">Create A Profile
+                                    (capability)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="9977d022730d8d89d8092d659a10bfaa52ee8eeef7ed9c815bd94716567c4ef9.html">Createauserwithouttransactionwithccdetails
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                    <span class="success-color">
+                                    Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Given get the proper data to create a user
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">2.18s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Create user data
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1.71s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                When call the create user service to create a user with cc
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">16.54s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Profile creation with CC
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">16.54s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                POST http://staging.jbilling.a-cti.com:8081/createUser
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-5">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-5" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://staging.jbilling.a-cti.com:8081/createUser
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=application/json, application/javascript, text/javascript, text/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstName&quot;: &quot;Testing&quot;,<br>    &quot;lastName&quot;: &quot;Jbilling&quot;,<br>    &quot;userEmail&quot;: &quot;z5b2zq_test@mail.com&quot;,<br>    &quot;brandId&quot;: &quot;fd335ead-dac3-4ce1-8908-badaae9c0aa0&quot;,<br>    &quot;uniquePin&quot;: &quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>    &quot;serviceAgreement&quot;: &quot;90 Days&quot;,<br>    &quot;linkToCRM&quot;: &quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>    &quot;accountNumber&quot;: &quot;0230198915&quot;,<br>    &quot;setUpFee&quot;: 0,<br>    &quot;address&quot;: &quot;Addr1&quot;,<br>    &quot;address2&quot;: &quot;Addr2&quot;,<br>    &quot;city&quot;: &quot;OR&quot;,<br>    &quot;state&quot;: &quot;Portland&quot;,<br>    &quot;country&quot;: &quot;US&quot;,<br>    &quot;zip&quot;: &quot;98343&quot;,<br>    &quot;organizationName&quot;: &quot;TESTz5b2zq&quot;,<br>    &quot;phoneNumber&quot;: &quot;0123456789&quot;,<br>    &quot;paymentType&quot;: &quot;cc&quot;,<br>    &quot;nameOnCard&quot;: &quot;Abinaya&quot;,<br>    &quot;cardNumber&quot;: &quot;4111111111111111&quot;,<br>    &quot;expDate&quot;: &quot;09/2020&quot;,<br>    &quot;cardType&quot;: &quot;Visa&quot;,<br>    &quot;transactionID&quot;: &quot;gvhvh3456&quot;,<br>    &quot;agentPin&quot;: &quot;8943&quot;,<br>    &quot;agentName&quot;: &quot;Test_Ab&quot;,<br>    &quot;billingContact1&quot;: {<br>        &quot;First Name&quot;: &quot;Abi&quot;,<br>        &quot;Last Name&quot;: &quot;naya&quot;,<br>        &quot;Phone Number&quot;: &quot;87673467376&quot;,<br>        &quot;Email&quot;: &quot;testing@billing.com&quot;<br>    }<br>}</pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Access-Control-Allow-Origin: *<br>Access-Control-Allow-Methods: POST, OPTIONS, PUT<br>Access-Control-Max-Age: 3600<br>Access-Control-Allow-Headers: Origin, Content-Type, Accept<br>Resp-Time: 1530542394187<br>Content-Type: application/json;charset=utf-8<br>Content-Length: 39<br>Server: Jetty(9.2.4.v20141103)</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;userId&quot;: &quot;1087385&quot;<br>}</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Then verify the response and status code
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.52s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Check status code as 200 and validate the response
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.52s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                When check the user information with relevant get services
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">3.39s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Check user get services
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3.39s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET http://staging.jbilling.a-cti.com:8081/getUserById?userId=1087385&amp;brandId=fd335ead-dac3-4ce1-8908-badaae9c0aa0
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-10">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-10" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://staging.jbilling.a-cti.com:8081/getUserById?userId=1087385&amp;brandId=fd335ead-dac3-4ce1-8908-badaae9c0aa0
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=application/json, application/javascript, text/javascript, text/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Access-Control-Allow-Origin: *<br>Access-Control-Allow-Methods: POST, OPTIONS, PUT<br>Access-Control-Max-Age: 3600<br>Access-Control-Allow-Headers: Origin, Content-Type, Accept<br>Resp-Time: 1530542408554<br>Content-Type: application/json;charset=utf-8<br>Content-Encoding: gzip<br>Vary: Accept-Encoding, User-Agent<br>Transfer-Encoding: chunked<br>Server: Jetty(9.2.4.v20141103)</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;user&quot;: {<br>        &quot;userName&quot;: &quot;z5b2zq_test@mail.com&quot;,<br>        &quot;owingBalance&quot;: 0E-10,<br>        &quot;userId&quot;: &quot;1087385&quot;,<br>        &quot;status&quot;: &quot;Active&quot;,<br>        &quot;companyName&quot;: &quot;AnswerForce UK&quot;,<br>        &quot;primaryContact&quot;: [<br>            {<br>                &quot;groupId&quot;: null,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;primaryAccountNumber&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 1,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: null,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380726,<br>                &quot;stringValue&quot;: &quot;0230198915&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;primaryAccountNumber&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 1,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: null,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Account PIN&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 2,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: null,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380728,<br>                &quot;stringValue&quot;: &quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Account PIN&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 2,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: null,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Service Agreement&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 3,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: null,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380729,<br>                &quot;stringValue&quot;: &quot;90 Days&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Service Agreement&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 3,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: null,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Subscriber URI&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 4,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: null,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380730,<br>                &quot;stringValue&quot;: &quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Subscriber URI&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 4,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 192,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;First Name&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 1,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;FIRST_NAME&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380733,<br>                &quot;stringValue&quot;: &quot;Abi&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;First Name&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 1,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 192,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Last Name&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 2,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;LAST_NAME&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380737,<br>                &quot;stringValue&quot;: &quot;naya&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Last Name&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 2,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 192,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Email&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 4,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;EMAIL&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380741,<br>                &quot;stringValue&quot;: &quot;testing@billing.com&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Email&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 4,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 192,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Phone Number&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 3,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;PHONE_NUMBER&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380734,<br>                &quot;stringValue&quot;: &quot;87673467376&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Phone Number&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 3,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement Name 1&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 1,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ORGANIZATION&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380752,<br>                &quot;stringValue&quot;: &quot;TESTz5b2zq&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement Name 1&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 1,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement Name 2&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 2,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ORGANIZATION&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380753,<br>                &quot;stringValue&quot;: &quot;Testing&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement Name 2&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 2,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement Address 2&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 4,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ADDRESS2&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380754,<br>                &quot;stringValue&quot;: &quot;Addr2&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement Address 2&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 4,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement Address 1&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 3,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ADDRESS1&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380744,<br>                &quot;stringValue&quot;: &quot;Addr1&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement Address 1&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 3,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement State&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 6,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;STATE_PROVINCE&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380731,<br>                &quot;stringValue&quot;: &quot;Portland&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement State&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 6,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement ZIP&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 8,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;POSTAL_CODE&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380746,<br>                &quot;stringValue&quot;: &quot;98343&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement ZIP&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 8,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement Country&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 7,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;COUNTRY_CODE&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380736,<br>                &quot;stringValue&quot;: &quot;US&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement Country&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 7,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 194,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Statement City&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 5,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;CITY&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380745,<br>                &quot;stringValue&quot;: &quot;OR&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Statement City&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 5,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Address 2&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 4,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ADDRESS2&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380743,<br>                &quot;stringValue&quot;: &quot;Addr2&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Address 2&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 4,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;First Name&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 1,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;FIRST_NAME&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380742,<br>                &quot;stringValue&quot;: &quot;Testing&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;First Name&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 1,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;State&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 6,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;STATE_PROVINCE&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380751,<br>                &quot;stringValue&quot;: &quot;Portland&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;State&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 6,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Billing Email&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 9,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;BILLING_EMAIL&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380740,<br>                &quot;stringValue&quot;: &quot;z5b2zq_test@mail.com&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Billing Email&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 9,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;City&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 5,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;CITY&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380750,<br>                &quot;stringValue&quot;: &quot;OR&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;City&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 5,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;ZIP&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 8,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;POSTAL_CODE&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380747,<br>                &quot;stringValue&quot;: &quot;98343&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;ZIP&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 8,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Address 1&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 3,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ADDRESS1&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380735,<br>                &quot;stringValue&quot;: &quot;Addr1&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Address 1&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 3,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Country&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 7,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;COUNTRY_CODE&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380748,<br>                &quot;stringValue&quot;: &quot;US&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Country&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 7,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 195,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Last Name&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 2,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;LAST_NAME&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380732,<br>                &quot;stringValue&quot;: &quot;Jbilling&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Last Name&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 2,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 190,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Organization Name&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 1,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ORGANIZATION&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380738,<br>                &quot;stringValue&quot;: &quot;TESTz5b2zq&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Organization Name&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 1,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 190,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Service Agreement&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 5,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;ORGANIZATION&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380739,<br>                &quot;stringValue&quot;: &quot;90 Days&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Service Agreement&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 5,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            },<br>            {<br>                &quot;groupId&quot;: 190,<br>                &quot;defaultValue&quot;: null,<br>                &quot;metaField&quot;: {<br>                    &quot;id&quot;: 0,<br>                    &quot;entityId&quot;: 90,<br>                    &quot;name&quot;: &quot;Sales Person&quot;,<br>                    &quot;fakeId&quot;: null,<br>                    &quot;entityType&quot;: null,<br>                    &quot;dataType&quot;: &quot;STRING&quot;,<br>                    &quot;displayOrder&quot;: 3,<br>                    &quot;dependentMetaFields&quot;: null,<br>                    &quot;dataTableId&quot;: null,<br>                    &quot;helpDescription&quot;: null,<br>                    &quot;helpContentURL&quot;: null,<br>                    &quot;defaultValue&quot;: null,<br>                    &quot;validationRule&quot;: null,<br>                    &quot;primary&quot;: false,<br>                    &quot;fieldUsage&quot;: &quot;FIRST_NAME&quot;,<br>                    &quot;filename&quot;: null,<br>                    &quot;disabled&quot;: false,<br>                    &quot;mandatory&quot;: false<br>                },<br>                &quot;id&quot;: 21380749,<br>                &quot;stringValue&quot;: &quot;Test_Ab&quot;,<br>                &quot;charValue&quot;: null,<br>                &quot;dateValue&quot;: null,<br>                &quot;booleanValue&quot;: null,<br>                &quot;integerValue&quot;: null,<br>                &quot;listValue&quot;: null,<br>                &quot;fieldName&quot;: &quot;Sales Person&quot;,<br>                &quot;entityId&quot;: 90,<br>                &quot;displayOrder&quot;: 3,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;decimalValue&quot;: null,<br>                &quot;mandatory&quot;: false,<br>                &quot;disabled&quot;: false<br>            }<br>        ],<br>        &quot;billingCycleStartTime&quot;: 0,<br>        &quot;billingCycleEndTime&quot;: 0<br>    }<br>}</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET http://staging.jbilling.a-cti.com:8081/getUserByAccountPin?brandId=fd335ead-dac3-4ce1-8908-badaae9c0aa0&amp;accountPin=d031f47e-4195-4b69-a4d0-a51ab537c1d9
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-11">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-11" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://staging.jbilling.a-cti.com:8081/getUserByAccountPin?brandId=fd335ead-dac3-4ce1-8908-badaae9c0aa0&amp;accountPin=d031f47e-4195-4b69-a4d0-a51ab537c1d9
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=application/json, application/javascript, text/javascript, text/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Access-Control-Allow-Origin: *<br>Access-Control-Allow-Methods: POST, OPTIONS, PUT<br>Access-Control-Max-Age: 3600<br>Access-Control-Allow-Headers: Origin, Content-Type, Accept<br>Resp-Time: 1530542409739<br>Content-Type: application/json;charset=utf-8<br>Content-Encoding: gzip<br>Vary: Accept-Encoding, User-Agent<br>Transfer-Encoding: chunked<br>Server: Jetty(9.2.4.v20141103)</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;user&quot;: {<br>        &quot;accountTypeId&quot;: 701,<br>        &quot;companyName&quot;: &quot;AnswerForce UK&quot;,<br>        &quot;primaryContact&quot;: [<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>                &quot;groupName&quot;: null,<br>                &quot;fieldName&quot;: &quot;Subscriber URI&quot;,<br>                &quot;dataType&quot;: &quot;string&quot;,<br>                &quot;groupId&quot;: 0,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;accountinfo&quot;,<br>                &quot;value&quot;: &quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>                &quot;groupName&quot;: null,<br>                &quot;fieldName&quot;: &quot;Account PIN&quot;,<br>                &quot;dataType&quot;: &quot;string&quot;,<br>                &quot;groupId&quot;: 0,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;accountinfo&quot;,<br>                &quot;value&quot;: &quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;0230198915&quot;,<br>                &quot;groupName&quot;: null,<br>                &quot;fieldName&quot;: &quot;primaryAccountNumber&quot;,<br>                &quot;dataType&quot;: &quot;string&quot;,<br>                &quot;groupId&quot;: 0,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;accountinfo&quot;,<br>                &quot;value&quot;: &quot;0230198915&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;90 Days&quot;,<br>                &quot;groupName&quot;: null,<br>                &quot;fieldName&quot;: &quot;Service Agreement&quot;,<br>                &quot;dataType&quot;: &quot;string&quot;,<br>                &quot;groupId&quot;: 0,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;accountinfo&quot;,<br>                &quot;value&quot;: &quot;90 Days&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;TESTz5b2zq&quot;,<br>                &quot;groupName&quot;: &quot;Account Info&quot;,<br>                &quot;fieldName&quot;: &quot;Organization Name&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 190,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;TESTz5b2zq&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Test_Ab&quot;,<br>                &quot;groupName&quot;: &quot;Account Info&quot;,<br>                &quot;fieldName&quot;: &quot;Sales Person&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 190,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Test_Ab&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;90 Days&quot;,<br>                &quot;groupName&quot;: &quot;Account Info&quot;,<br>                &quot;fieldName&quot;: &quot;Service Agreement&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 190,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;90 Days&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;87673467376&quot;,<br>                &quot;groupName&quot;: &quot;Billing Contact 1&quot;,<br>                &quot;fieldName&quot;: &quot;Phone Number&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 192,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;87673467376&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;testing@billing.com&quot;,<br>                &quot;groupName&quot;: &quot;Billing Contact 1&quot;,<br>                &quot;fieldName&quot;: &quot;Email&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 192,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;testing@billing.com&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Abi&quot;,<br>                &quot;groupName&quot;: &quot;Billing Contact 1&quot;,<br>                &quot;fieldName&quot;: &quot;First Name&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 192,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Abi&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;naya&quot;,<br>                &quot;groupName&quot;: &quot;Billing Contact 1&quot;,<br>                &quot;fieldName&quot;: &quot;Last Name&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 192,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;naya&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;98343&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement ZIP&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;98343&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Portland&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement State&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Portland&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Addr2&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement Address 2&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Addr2&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Addr1&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement Address 1&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Addr1&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;OR&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement City&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;OR&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Testing&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement Name 2&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Testing&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;TESTz5b2zq&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement Name 1&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;TESTz5b2zq&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;US&quot;,<br>                &quot;groupName&quot;: &quot;Communication Address&quot;,<br>                &quot;fieldName&quot;: &quot;Statement Country&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 194,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;US&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;US&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;Country&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;US&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;OR&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;City&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;OR&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Jbilling&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;Last Name&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Jbilling&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;98343&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;ZIP&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;98343&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;z5b2zq_test@mail.com&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;Billing Email&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;z5b2zq_test@mail.com&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Testing&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;First Name&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Testing&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Addr1&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;Address 1&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Addr1&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Addr2&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;Address 2&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Addr2&quot;<br>            },<br>            {<br>                &quot;dateValue&quot;: null,<br>                &quot;stringValue&quot;: &quot;Portland&quot;,<br>                &quot;groupName&quot;: &quot;Credit Card Billing Address&quot;,<br>                &quot;fieldName&quot;: &quot;State&quot;,<br>                &quot;accountTypeId&quot;: 701,<br>                &quot;dataType&quot;: &quot;STRING&quot;,<br>                &quot;groupId&quot;: 195,<br>                &quot;decimalValue&quot;: 0.0,<br>                &quot;booleanValue&quot;: false,<br>                &quot;integerValue&quot;: 0,<br>                &quot;type&quot;: &quot;billinginfo&quot;,<br>                &quot;value&quot;: &quot;Portland&quot;<br>            }<br>        ],<br>        &quot;userName&quot;: &quot;z5b2zq_test@mail.com&quot;,<br>        &quot;userId&quot;: 1087385,<br>        &quot;createDateTime&quot;: 1530542394000,<br>        &quot;status&quot;: &quot;Active&quot;,<br>        &quot;owingBalance&quot;: 0.0,<br>        &quot;billingCycleStartTime&quot;: 0,<br>        &quot;billingCycleEndTime&quot;: 0<br>    }<br>}</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET http://staging.jbilling.a-cti.com:8081/v1/getUserByAccountPin/accountPin/d031f47e-4195-4b69-a4d0-a51ab537c1d9/brandId/fd335ead-dac3-4ce1-8908-badaae9c0aa0
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-12">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-12" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://staging.jbilling.a-cti.com:8081/v1/getUserByAccountPin/accountPin/d031f47e-4195-4b69-a4d0-a51ab537c1d9/brandId/fd335ead-dac3-4ce1-8908-badaae9c0aa0
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=application/json, application/javascript, text/javascript, text/json<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Access-Control-Allow-Origin: *<br>Access-Control-Allow-Methods: POST, OPTIONS, PUT<br>Access-Control-Max-Age: 3600<br>Access-Control-Allow-Headers: Origin, Content-Type, Accept<br>Resp-Time: 1530542410824<br>Content-Type: application/json;charset=UTF-8<br>Content-Encoding: gzip<br>Vary: Accept-Encoding, User-Agent<br>Transfer-Encoding: chunked<br>Server: Jetty(9.2.4.v20141103)</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;success&quot;: &quot;true&quot;,<br>    &quot;user&quot;: {<br>        &quot;accountTypeId&quot;: 701,<br>        &quot;companyName&quot;: &quot;AnswerForce UK&quot;,<br>        &quot;userName&quot;: &quot;z5b2zq_test@mail.com&quot;,<br>        &quot;userId&quot;: 1087385,<br>        &quot;createDateTime&quot;: 1530542394000,<br>        &quot;status&quot;: &quot;Active&quot;,<br>        &quot;owingBalance&quot;: 0.0,<br>        &quot;billingCycleStartTime&quot;: 0,<br>        &quot;billingCycleEndTime&quot;: 0,<br>        &quot;primaryDetails&quot;: {<br>            &quot;Account PIN&quot;: &quot;d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>            &quot;Subscriber URI&quot;: &quot;https://dist-sourcetest.appspot.com/crm#account/d031f47e-4195-4b69-a4d0-a51ab537c1d9&quot;,<br>            &quot;primaryAccountNumber&quot;: &quot;0230198915&quot;,<br>            &quot;Service Agreement&quot;: &quot;90 Days&quot;<br>        },<br>        &quot;accountInfo&quot;: {<br>            &quot;Organization Name&quot;: &quot;TESTz5b2zq&quot;,<br>            &quot;Sales Person&quot;: &quot;Test_Ab&quot;,<br>            &quot;Service Agreement&quot;: &quot;90 Days&quot;<br>        },<br>        &quot;billingContact1&quot;: {<br>            &quot;Email&quot;: &quot;testing@billing.com&quot;,<br>            &quot;First Name&quot;: &quot;Abi&quot;,<br>            &quot;Phone Number&quot;: &quot;87673467376&quot;,<br>            &quot;Last Name&quot;: &quot;naya&quot;<br>        },<br>        &quot;communicationAddress&quot;: {<br>            &quot;Statement Address 2&quot;: &quot;Addr2&quot;,<br>            &quot;Statement Address 1&quot;: &quot;Addr1&quot;,<br>            &quot;Statement Country&quot;: &quot;US&quot;,<br>            &quot;Statement City&quot;: &quot;OR&quot;,<br>            &quot;Statement Name 2&quot;: &quot;Testing&quot;,<br>            &quot;Statement ZIP&quot;: &quot;98343&quot;,<br>            &quot;Statement Name 1&quot;: &quot;TESTz5b2zq&quot;,<br>            &quot;Statement State&quot;: &quot;Portland&quot;<br>        },<br>        &quot;creditCardBillingAddress&quot;: {<br>            &quot;ZIP&quot;: &quot;98343&quot;,<br>            &quot;Address 2&quot;: &quot;Addr2&quot;,<br>            &quot;State&quot;: &quot;Portland&quot;,<br>            &quot;Address 1&quot;: &quot;Addr1&quot;,<br>            &quot;First Name&quot;: &quot;Testing&quot;,<br>            &quot;Country&quot;: &quot;US&quot;,<br>            &quot;City&quot;: &quot;OR&quot;,<br>            &quot;Last Name&quot;: &quot;Jbilling&quot;,<br>            &quot;Billing Email&quot;: &quot;z5b2zq_test@mail.com&quot;<br>        }<br>    }<br>}</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection4 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                And verify the response of get services
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection4" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Assert the response status as true
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>23.65s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.9.9</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            // "order": [[0, "asc"]],
+            "pageLength": 50,
+            "searching": false,
+            "ordering":  false,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Get a plans and addons information</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Get a plans and addons information</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Get a plans and addons information</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.640s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Testing a getPlansAndAddons information, with the request param of GET EndPoint</td>
+<td>4.640s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>    ?[32mGiven ?[0m?[32mcall the getStaticPlansAndAddons service with the relavent brandId?[0m                ?[90m# GetPlansAndAddonsStepDefinition.call_the_getStaticPlansAndAddons_service_with_the_relavent_brandId()?[0m
+    ?[32mWhen ?[0m?[32mvalidate the statusCode and response from it?[0m                                       ?[90m# GetPlansAndAddonsStepDefinition.validate_the_statusCode_and_response_from_it()?[0m
+{&quot;data&quot;:{&quot;plans&quot;:{&quot;ivrPlan&quot;:[{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;10000 Minutes&quot;,&quot;displayName&quot;:&quot;399.99&quot;,&quot;price&quot;:&quot;399.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;10000 Min $399.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3616&quot;,&quot;jBillingId&quot;:&quot;3616&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;20000 Minutes&quot;,&quot;displayName&quot;:&quot;799.99&quot;,&quot;price&quot;:&quot;799.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;20000 Min $799.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3617&quot;,&quot;jBillingId&quot;:&quot;3617&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;500 Minutes&quot;,&quot;displayName&quot;:&quot;29.99&quot;,&quot;price&quot;:&quot;29.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;500 Min $29.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3502&quot;,&quot;jBillingId&quot;:&quot;3502&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;admin&quot;,&quot;minutes&quot;:&quot;500 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (500 Mins)&quot;,&quot;price&quot;:&quot;19.99&quot;,&quot;overages&quot;:&quot;0.0690000000&quot;,&quot;description&quot;:&quot;500 IVR Minutes - $19.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;1201&quot;,&quot;jBillingId&quot;:&quot;1201&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;2000 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (2000 Mins)&quot;,&quot;price&quot;:&quot;49.99&quot;,&quot;overages&quot;:&quot;0.0690000000&quot;,&quot;description&quot;:&quot;2000 IVR Minutes - $49.99 / Month&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;1202&quot;,&quot;jBillingId&quot;:&quot;1202&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;30000 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (30000 Mins)&quot;,&quot;price&quot;:&quot;1299.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;30000 Mins IVR - $1299.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3700&quot;,&quot;jBillingId&quot;:&quot;3700&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;1100 Minutes&quot;,&quot;displayName&quot;:&quot;59.99&quot;,&quot;price&quot;:&quot;59.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;1100 Min $59.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3612&quot;,&quot;jBillingId&quot;:&quot;3612&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;5000 Minutes&quot;,&quot;displayName&quot;:&quot;229.99&quot;,&quot;price&quot;:&quot;229.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;5000 Min $229.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3614&quot;,&quot;jBillingId&quot;:&quot;3614&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;2200 Minutes&quot;,&quot;displayName&quot;:&quot;109.99&quot;,&quot;price&quot;:&quot;109.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;2200 Min $109.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3615&quot;,&quot;jBillingId&quot;:&quot;3615&quot;,&quot;status&quot;:&quot;active&quot;}],&quot;voicePlan&quot;:[{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;600 Minutes&quot;,&quot;displayName&quot;:&quot;499.00&quot;,&quot;price&quot;:&quot;499.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;600 Mins Plan - £499&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4608&quot;,&quot;jBillingId&quot;:&quot;4608&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;850 Minutes&quot;,&quot;displayName&quot;:&quot;699.00&quot;,&quot;price&quot;:&quot;699.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;850 Mins Plan - £699&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4609&quot;,&quot;jBillingId&quot;:&quot;4609&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;1500 Minutes&quot;,&quot;displayName&quot;:&quot;1199.00&quot;,&quot;price&quot;:&quot;1199.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;1500 Mins Plan - £1199&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4610&quot;,&quot;jBillingId&quot;:&quot;4610&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;3000 Minutes&quot;,&quot;displayName&quot;:&quot;2299.00&quot;,&quot;price&quot;:&quot;2299.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;3000 Mins Plan - £2299&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4611&quot;,&quot;jBillingId&quot;:&quot;4611&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;6000 Minutes&quot;,&quot;displayName&quot;:&quot;4299.00&quot;,&quot;price&quot;:&quot;4299.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;6000 Mins Plan  - £4299&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4612&quot;,&quot;jBillingId&quot;:&quot;4612&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;12000 Minutes&quot;,&quot;displayName&quot;:&quot;8299.00&quot;,&quot;price&quot;:&quot;8299.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;12000 Mins Plan - £8299&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4613&quot;,&quot;jBillingId&quot;:&quot;4613&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;24000 Minutes&quot;,&quot;displayName&quot;:&quot;15999.00&quot;,&quot;price&quot;:&quot;15999.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;24000 Mins Plan  - £15999&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4614&quot;,&quot;jBillingId&quot;:&quot;4614&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;48000 Minutes&quot;,&quot;displayName&quot;:&quot;30999.00&quot;,&quot;price&quot;:&quot;30999.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;48000 Mins Plan - £30999&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4615&quot;,&quot;jBillingId&quot;:&quot;4615&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;100000 Minutes&quot;,&quot;displayName&quot;:&quot;65999.00&quot;,&quot;price&quot;:&quot;65999.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;100000 Mins Plan - £65999&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4616&quot;,&quot;jBillingId&quot;:&quot;4616&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;admin&quot;,&quot;displayName&quot;:&quot;19.00&quot;,&quot;price&quot;:&quot;19.00&quot;,&quot;overages&quot;:&quot;1.9500000000&quot;,&quot;description&quot;:&quot;Retention Plan - £19 / Month&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4631&quot;,&quot;jBillingId&quot;:&quot;4631&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;125 Minutes&quot;,&quot;displayName&quot;:&quot;99.00&quot;,&quot;price&quot;:&quot;99.00&quot;,&quot;overages&quot;:&quot;1.0000000000&quot;,&quot;description&quot;:&quot;125 Mins Plan - £99&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;4605&quot;,&quot;jBillingId&quot;:&quot;4605&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;200 Minutes&quot;,&quot;displayName&quot;:&quot;199.00&quot;,&quot;price&quot;:&quot;199.00&quot;,&quot;overages&quot;:&quot;1.0000000000&quot;,&quot;description&quot;:&quot;200 Mins Plan - £199&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;4606&quot;,&quot;jBillingId&quot;:&quot;4606&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;300 Minutes&quot;,&quot;displayName&quot;:&quot;219.00&quot;,&quot;price&quot;:&quot;219.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;300 Mins Plan - £219&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4607&quot;,&quot;jBillingId&quot;:&quot;4607&quot;,&quot;status&quot;:&quot;active&quot;}]}},&quot;message&quot;:&quot;&quot;,&quot;status&quot;:&quot;success&quot;}
+[{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;10000 Minutes&quot;,&quot;displayName&quot;:&quot;399.99&quot;,&quot;price&quot;:&quot;399.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;10000 Min $399.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3616&quot;,&quot;jBillingId&quot;:&quot;3616&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;20000 Minutes&quot;,&quot;displayName&quot;:&quot;799.99&quot;,&quot;price&quot;:&quot;799.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;20000 Min $799.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3617&quot;,&quot;jBillingId&quot;:&quot;3617&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;500 Minutes&quot;,&quot;displayName&quot;:&quot;29.99&quot;,&quot;price&quot;:&quot;29.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;500 Min $29.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3502&quot;,&quot;jBillingId&quot;:&quot;3502&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;admin&quot;,&quot;minutes&quot;:&quot;500 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (500 Mins)&quot;,&quot;price&quot;:&quot;19.99&quot;,&quot;overages&quot;:&quot;0.0690000000&quot;,&quot;description&quot;:&quot;500 IVR Minutes - $19.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;1201&quot;,&quot;jBillingId&quot;:&quot;1201&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;2000 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (2000 Mins)&quot;,&quot;price&quot;:&quot;49.99&quot;,&quot;overages&quot;:&quot;0.0690000000&quot;,&quot;description&quot;:&quot;2000 IVR Minutes - $49.99 / Month&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;1202&quot;,&quot;jBillingId&quot;:&quot;1202&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;30000 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (30000 Mins)&quot;,&quot;price&quot;:&quot;1299.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;30000 Mins IVR - $1299.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3700&quot;,&quot;jBillingId&quot;:&quot;3700&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;1100 Minutes&quot;,&quot;displayName&quot;:&quot;59.99&quot;,&quot;price&quot;:&quot;59.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;1100 Min $59.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3612&quot;,&quot;jBillingId&quot;:&quot;3612&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;5000 Minutes&quot;,&quot;displayName&quot;:&quot;229.99&quot;,&quot;price&quot;:&quot;229.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;5000 Min $229.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3614&quot;,&quot;jBillingId&quot;:&quot;3614&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;2200 Minutes&quot;,&quot;displayName&quot;:&quot;109.99&quot;,&quot;price&quot;:&quot;109.99&quot;,&quot;overages&quot;:&quot;0.0800000000&quot;,&quot;description&quot;:&quot;2200 Min $109.99 / Month&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;3615&quot;,&quot;jBillingId&quot;:&quot;3615&quot;,&quot;status&quot;:&quot;active&quot;}]
+Random : 4
+IVR Object Data{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;2000 Minutes&quot;,&quot;displayName&quot;:&quot;IVR (2000 Mins)&quot;,&quot;price&quot;:&quot;49.99&quot;,&quot;overages&quot;:&quot;0.0690000000&quot;,&quot;description&quot;:&quot;2000 IVR Minutes - $49.99 / Month&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;1202&quot;,&quot;jBillingId&quot;:&quot;1202&quot;,&quot;status&quot;:&quot;active&quot;}
+1202
+IVR Plan Id: 1202
+[{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;600 Minutes&quot;,&quot;displayName&quot;:&quot;499.00&quot;,&quot;price&quot;:&quot;499.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;600 Mins Plan - £499&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4608&quot;,&quot;jBillingId&quot;:&quot;4608&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;850 Minutes&quot;,&quot;displayName&quot;:&quot;699.00&quot;,&quot;price&quot;:&quot;699.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;850 Mins Plan - £699&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4609&quot;,&quot;jBillingId&quot;:&quot;4609&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;1500 Minutes&quot;,&quot;displayName&quot;:&quot;1199.00&quot;,&quot;price&quot;:&quot;1199.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;1500 Mins Plan - £1199&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4610&quot;,&quot;jBillingId&quot;:&quot;4610&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;3000 Minutes&quot;,&quot;displayName&quot;:&quot;2299.00&quot;,&quot;price&quot;:&quot;2299.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;3000 Mins Plan - £2299&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4611&quot;,&quot;jBillingId&quot;:&quot;4611&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;6000 Minutes&quot;,&quot;displayName&quot;:&quot;4299.00&quot;,&quot;price&quot;:&quot;4299.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;6000 Mins Plan  - £4299&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4612&quot;,&quot;jBillingId&quot;:&quot;4612&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;12000 Minutes&quot;,&quot;displayName&quot;:&quot;8299.00&quot;,&quot;price&quot;:&quot;8299.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;12000 Mins Plan - £8299&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4613&quot;,&quot;jBillingId&quot;:&quot;4613&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;24000 Minutes&quot;,&quot;displayName&quot;:&quot;15999.00&quot;,&quot;price&quot;:&quot;15999.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;24000 Mins Plan  - £15999&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4614&quot;,&quot;jBillingId&quot;:&quot;4614&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;48000 Minutes&quot;,&quot;displayName&quot;:&quot;30999.00&quot;,&quot;price&quot;:&quot;30999.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;48000 Mins Plan - £30999&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4615&quot;,&quot;jBillingId&quot;:&quot;4615&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;100000 Minutes&quot;,&quot;displayName&quot;:&quot;65999.00&quot;,&quot;price&quot;:&quot;65999.00&quot;,&quot;overages&quot;:&quot;0.9000000000&quot;,&quot;description&quot;:&quot;100000 Mins Plan - £65999&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4616&quot;,&quot;jBillingId&quot;:&quot;4616&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;admin&quot;,&quot;displayName&quot;:&quot;19.00&quot;,&quot;price&quot;:&quot;19.00&quot;,&quot;overages&quot;:&quot;1.9500000000&quot;,&quot;description&quot;:&quot;Retention Plan - £19 / Month&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4631&quot;,&quot;jBillingId&quot;:&quot;4631&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;125 Minutes&quot;,&quot;displayName&quot;:&quot;99.00&quot;,&quot;price&quot;:&quot;99.00&quot;,&quot;overages&quot;:&quot;1.0000000000&quot;,&quot;description&quot;:&quot;125 Mins Plan - £99&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;4605&quot;,&quot;jBillingId&quot;:&quot;4605&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;200 Minutes&quot;,&quot;displayName&quot;:&quot;199.00&quot;,&quot;price&quot;:&quot;199.00&quot;,&quot;overages&quot;:&quot;1.0000000000&quot;,&quot;description&quot;:&quot;200 Mins Plan - £199&quot;,&quot;setUpFee&quot;:&quot;49.99&quot;,&quot;id&quot;:&quot;4606&quot;,&quot;jBillingId&quot;:&quot;4606&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;access&quot;:&quot;user&quot;,&quot;minutes&quot;:&quot;300 Minutes&quot;,&quot;displayName&quot;:&quot;219.00&quot;,&quot;price&quot;:&quot;219.00&quot;,&quot;overages&quot;:&quot;0.9500000000&quot;,&quot;description&quot;:&quot;300 Mins Plan - £219&quot;,&quot;setUpFee&quot;:&quot;0.0&quot;,&quot;id&quot;:&quot;4607&quot;,&quot;jBillingId&quot;:&quot;4607&quot;,&quot;status&quot;:&quot;active&quot;}]
+4612
+    ?[32mThen ?[0m?[32mget random plans?[0m                                                                   ?[90m# GetPlansAndAddonsStepDefinition.get_random_plans()?[0m
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Testing a getPlansAndAddons information, with the request param of GET EndPoint
+----------------------------------------------------------------------------
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.5</a> at 2 Jul, 2018 8:10:23 PM</p>
+</div>
+</div>
+</body>
+</html>
