@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Update the plans swap to the customer" skipped="0" tests="1" time="14.19" timestamp="2018-07-23 03:55:04"><testcase name="Testing a plan swap, with the requestBody of PUT endpoint"><failure message="expected:&lt;200&gt; but was:&lt;500&gt;" type="java.lang.AssertionError">expected:&lt;200&gt; but was:&lt;500&gt;</failure><system-err>expected:&lt;200&gt; but was:&lt;500&gt;
+Steps.planswap.call_the_updateSelectedPlansAndAddons_service(planswap.java:168)
+✽.call the updateSelectedPlansAndAddons service(src/test/resources/features/SwapPlans/planswap.feature:26)
+</system-err></testcase></testsuite>

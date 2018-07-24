@@ -1,4 +1,3 @@
-@createUser
 Feature: Create A Profile Creation Without Transaction
   I want to create a user without any transaction with relavent brand
 

@@ -152,7 +152,7 @@ public class CreateProfileStepDefinition {
        			 		response_profileInfo 							   = 							SerenityRest.given().when()
        	 																							.contentType(ContentType.JSON)
        	 																							.accept(ContentType.JSON)
-       	 																							.content(JsoninfoProfileWithoutPaymentData)
+       	 																							.body(JsoninfoProfileWithoutPaymentData)
        	 																							.post("/createUser");
        			 	}
         		}
@@ -171,7 +171,7 @@ public class CreateProfileStepDefinition {
 	   			response_profileInfo 							= 							SerenityRest.given().when()
 	   																							.contentType(ContentType.JSON)
 	   																							.accept(ContentType.JSON)
-	   																							.content(JsoninfoProfileWithoutPaymentData)
+	   																							.body(JsoninfoProfileWithoutPaymentData)
 	   																							.post("/createUser");
 	   		 		}
 	        	}
@@ -189,14 +189,14 @@ public class CreateProfileStepDefinition {
 	   			 
 	   			 System.out.println("Brand Id : "+getBrandId.toString());
 	   	 	
-	   			 	if(!getBrandId.get("paymentType").equals("cc") && !getBrandId.get("paymentType").equals("ach")){
+	   			 //	if(!getBrandId.get("paymentType").equals("cc") && !getBrandId.get("paymentType").equals("ach")){
 	   	 		response_profileInfo 							   = 							SerenityRest.given().when()
 	   	 																							.contentType(ContentType.JSON)
 	   	 																							.accept(ContentType.JSON)
-	   	 																							.content(JsoninfoProfileWithoutPaymentData)
+	   	 																							.body(JsoninfoProfileWithoutPaymentData)
 	   	 																							.post("/createUser");
 	   	 		
-	   	 	 		}
+	   	 	 		//}
 	        	}
 	        }
 	        @Step

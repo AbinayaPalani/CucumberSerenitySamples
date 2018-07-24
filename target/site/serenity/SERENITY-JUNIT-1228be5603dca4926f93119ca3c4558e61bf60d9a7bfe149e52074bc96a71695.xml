@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Get a plans and addons information" skipped="0" tests="1" time="4.64" timestamp="2018-07-02 08:10:13"><testcase name="Testing a getPlansAndAddons information, with the request param of GET EndPoint"/></testsuite>

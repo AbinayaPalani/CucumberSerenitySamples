@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Create A Profile Creation Without Transaction" skipped="0" tests="1" time="23.65" timestamp="2018-07-02 08:09:47"><testcase name="Testing a create user without transaction but bind with cc detail, with requestBody of POST EndPoint"/></testsuite>

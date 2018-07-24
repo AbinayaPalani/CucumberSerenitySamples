@@ -66,7 +66,7 @@ public class CreatePlansAddonsStepDefinition {
 			 response_createPlansAndAddons					=							SerenityRest.given()
 					 																		.when()
 					 																		.contentType(ContentType.JSON)
-					 																		.content(createPlansObject)
+					 																		.body(createPlansObject)
 					 																		.accept(ContentType.JSON)
 					 																		.post("/createPlansAndAddons");
 		}

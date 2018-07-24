@@ -1,2 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Get a plans and addons information","Testing a getPlansAndAddons information, with the request param of GET EndPoint","SUCCESS","2018-07-02T20:10:13.692+05:30[Asia/Kolkata]","0.0","4.64"
